@@ -88,3 +88,30 @@
     line-height: 27px;
     text-align: justify;
 }
+/* HEADER END */
+.history {
+    background: var(--dark);
+    padding: 60px 0;
+}
+.history__title {
+    font-size: 26px;
+    color: var(--yellow);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.history__title::before, .history__title::after {
+    content: '';
+    display: block;
+    max-width: 50px;
+    height: 2px;
+    background: var(--white);
+}
+.history__title::before {
+    margin-left: auto;
+}
+.history__desc {
+    color: var(--white);
+    line-height: 27px;
+    font-size: 18px;
+    text-align: justify;
+}
